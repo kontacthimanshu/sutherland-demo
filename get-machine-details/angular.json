@@ -26,8 +26,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/machine-details/modern-ip-finder.js",
-              "src/machine-details/ie-machine-name-finder.js"
+              "src/assets/js/modern-ip-finder.js",
+              "src/assets/js/ie-machine-name-finder.js"
             ],
             "es5BrowserSupport": true
           },

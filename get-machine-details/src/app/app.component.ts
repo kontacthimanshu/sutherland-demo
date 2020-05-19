@@ -28,7 +28,10 @@ export class AppComponent implements OnInit {
     
     if(isEdge || isChrome || isFirefox)  {
       this._ipService.fetchIps();
-      this.allIps = document.cookie;
+      setTimeout(()=>{
+        this.allIps = document.cookie;
+      },200);
+      
     }
   }
 }
